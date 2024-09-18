@@ -19,6 +19,8 @@ function rgbToHex(r, g, b) {
     }).join('');
 }
 
+//Comentario de prueba
+
 // Función para convertir un valor hexadecimal a RGB
 function hexToRgb(hex) {
     const bigint = parseInt(hex.slice(1), 16);
